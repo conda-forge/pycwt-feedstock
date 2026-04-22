@@ -1,6 +1,6 @@
 {% set name = "pycwt" %}
-{% set version = "0.3.0a22" %}
-{% set sha256 = "f99668ef2caf8d5020ef6bcbbcc86ee542d038ae7c5e1e80da12e5264445eb17" %}
+{% set version = "0.5.0b0" %}
+{% set sha256 = "ba66417d934877beb6d3a6f2f6bad6465b6f008753caceaf60a29ea8d7f098c4" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
